@@ -1,0 +1,103 @@
+h2{
+  color: #6594e0;
+  border-bottom: dashed 2px #6594e0;
+}
+
+body{
+  width: auto;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+tr{
+  height: 60px;
+  text-align: center;
+}
+
+.index{
+  background-color: silver;
+}
+
+#main{
+  padding: 0 4%;
+}
+
+.button{
+  display: flex;
+  padding: 1em 1em;
+  width: 200px;
+  color: #333;
+  font-size: auto;
+  font-weight: 700;
+  font-family: san-serif;
+  text-decoration: none;
+  background-color: #88f3b1;
+  border-radius: 50vh;
+  justify-content: space-around;
+  margin-bottom: 3px;
+}
+
+/* .button02 a::after{
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px;
+  transform: rotate(45deg);
+} */
+
+/* .button02 a:hover{
+  text-decoration: none;
+  background-color: #bbbbbb;
+} */
+
+.inline-block{
+  display: inline-block;
+}
+
+.content{
+  width: 400px;
+  height: 100px;
+}
+
+
+.set_class{
+  font-size: 100%;
+  margin-bottom: 100px;
+  overflow-x: scroll;
+}
+
+.set_class table{
+  margin: 0;
+  border-spacing: 0;
+}
+
+/* .set_class{
+  white-space: nowrap;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  background: #FFF;
+  padding: 5px;
+} */
+
+.set_class td a{
+  display: block;
+}
+
+@media screen and (min-width: 601px){
+  .mob{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px){
+  .com{
+    display:none;
+  }
+}
+
+h6{
+  font-size:5px;
+  border-top: dashed 2px rgb(104, 104, 104);
+  text-align: center;
+}
+
