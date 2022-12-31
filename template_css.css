@@ -64,7 +64,7 @@ tr{
 .set_class{
   font-size: 100%;
   margin-bottom: 100px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .set_class table{
@@ -101,3 +101,8 @@ h6{
   text-align: center;
 }
 
+table{
+  border-collapse: collapse;
+  width: 85%;
+  height: 154px;
+}
